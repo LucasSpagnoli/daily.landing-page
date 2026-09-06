@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wireframe da landing page do Daily.News." />
+    <title>Daily.News — Wireframe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wireframe-note">Wireframe · estrutura e hierarquia, não design final</div>
+
+    <header class="site-header container">
+      <a class="brand" href="#top" aria-label="Daily.News, início">daily<span>.</span>news</a>
+      <nav aria-label="Navegação principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <a class="button button-small" href="#preco">Começar teste grátis</a>
+    </header>
+
+    <main id="top">
+      <section class="hero container section-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Exclusivo para assessores de investimentos</p>
+          <h1>Entregue um resumo de mercado que parece feito à mão — em <em>1 clique.</em></h1>
+          <p class="lead">O Daily.News encontra notícias relevantes para cada cliente, cria o resumo e deixa a mensagem pronta no seu WhatsApp.</p>
+          <ul class="hero-points"><li>Personalize por cliente e interesse</li><li>Revise antes de enviar</li><li>Funciona direto no navegador</li></ul>
+          <div class="actions">
+            <a class="button" href="#preco">Testar o Daily.News grátis <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#como-funciona">Ver como funciona</a>
+          </div>
+          <p class="microcopy">7 dias completos · Sem taxa de adesão · Cancele quando quiser</p>
+        </div>
+
+        <div class="product-frame" aria-label="Representação do painel da plataforma">
+          <div class="window-top"><span></span><span></span><span></span><b>daily.news / feed</b></div>
+          <div class="app-layout">
+            <aside><strong>daily.news</strong><a>Visão geral</a><a class="active">Feed</a><a>Clientes</a><a>Preferências</a></aside>
+            <div class="feed-preview">
+              <div class="preview-heading"><div><small>Bom dia, Marina</small><b>Feed da carteira</b></div><button>Gerar feed</button></div>
+              <div class="client-row"><div class="avatar">R</div><div><b>Ricardo Almeida</b><small>Ibovespa · FIIs · Selic</small></div><button class="icon-button">↗</button></div>
+              <article><span class="tag">MERCADO</span><b>Ibovespa abre em alta com atenção aos juros</b><small>Resumo personalizado para Ricardo · 2 min</small></article>
+              <article><span class="tag">RENDA FIXA</span><b>O que muda com a próxima decisão do Copom</b><small>Resumo personalizado para Ricardo · 4 min</small></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div class="container"><span>Seu resumo parte de fontes reais e passa pela sua revisão</span><div class="logos"><b>InfoMoney</b><b>G1 Economia</b><b>Gemini</b><b>WhatsApp</b></div></div>
+      </section>
+
+      <section class="container benefits" id="beneficios">
+        <div class="section-intro"><p class="eyebrow">Mais tempo para o relacionamento</p><h2>O mercado não para. Mas você não precisa perder o dia todo lendo o feed.</h2></div>
+        <div class="cards three-columns">
+          <article class="card"><span class="number">01</span><h3>Poupe de 2 a 3 horas todos os dias</h3><p>O Daily.News encontra e organiza as informações financeiras relevantes para você.</p></article>
+          <article class="card"><span class="number">02</span><h3>Um resumo para cada perfil</h3><p>Configure os interesses individuais de cada cliente, de FIIs e dólar à PETR4 e à Selic.</p></article>
+          <article class="card"><span class="number">03</span><h3>Do feed ao WhatsApp</h3><p>Revise o resumo e abra uma mensagem pronta e formatada para envio com um clique.</p></article>
+        </div>
+        <div class="inline-cta"><div><strong>Menos pesquisa. Mais presença na carteira.</strong><span>Veja, em poucos minutos, o que cada cliente precisa receber hoje.</span></div><a class="button" href="#preco">Começar meu teste grátis <span aria-hidden="true">→</span></a></div>
+      </section>
+
+      <section class="contrast-section">
+        <div class="container section-intro centered"><p class="eyebrow">Clareza e confiança</p><h2>Informação precisa. Sem ruídos. Sem deixar nada para trás.</h2></div>
+        <div class="container objections">
+          <article><span class="symbol">✦</span><div><h3>Inteligência artificial cirúrgica</h3><p class="question">“A IA vai inventar notícias ou mandar coisas irrelevantes?”</p><p>Não. O Gemini cruza as preferências do cliente com notícias reais. Você revisa tudo antes de enviar.</p></div></article>
+          <article><span class="symbol">◎</span><div><h3>Cobertura ampla e confiável</h3><p class="question">“E se a plataforma deixar passar um movimento importante?”</p><p>O sistema acompanha RSS de portais como InfoMoney e G1 Economia para manter seu painel atualizado.</p></div></article>
+        </div>
+      </section>
+
+      <section class="container process" id="como-funciona">
+        <div class="section-intro"><p class="eyebrow">Simples desde a primeira manhã</p><h2>Sua nova rotina em 3 passos.</h2></div>
+        <ol class="steps">
+          <li><span>1</span><h3>Cadastre o cliente</h3><p>Adicione nome, WhatsApp e tags como Ibovespa, VALE3 ou Dividendos.</p></li>
+          <li><span>2</span><h3>Deixe a IA trabalhar</h3><p>O painel cria um feed com notícias que combinam com cada perfil.</p></li>
+          <li><span>3</span><h3>Revise e envie</h3><p>Gere um resumo, confira o texto e abra o WhatsApp pronto para o disparo.</p></li>
+        </ol>
+        <div class="demo-placeholder"><span>DEMONSTRAÇÃO DO PRODUTO</span><b>Cadastro → feed personalizado → resumo → WhatsApp</b><p>Mostre este fluxo em um vídeo curto antes do lançamento.</p><button aria-label="Reproduzir demonstração">▶</button></div>
+      </section>
+
+      <section class="pricing-section" id="preco">
+        <div class="container pricing-layout"><div><p class="eyebrow">Comece sem risco</p><h2>Teste a sua nova rotina antes de decidir.</h2><p>Durante 7 dias, experimente o painel completo com seus próprios clientes. Sem contrato, sem configuração técnica e sem perder o controle da mensagem.</p><div class="reassurance"><span>✓</span><p><strong>Você revisa cada resumo.</strong><br />O Daily.News não envia mensagens automaticamente.</p></div></div>
+          <article class="price-card"><span class="plan-label">Acesso completo no teste</span><p class="trial-title">Tudo o que você precisa para validar o Daily.News na sua rotina.</p><ul><li>Cadastre seus primeiros clientes</li><li>Configure interesses individuais</li><li>Gere feeds e resumos com IA</li><li>Prepare envios pelo WhatsApp</li><li>Acompanhe fontes de economia</li></ul><a class="button full" href="#">Iniciar meus 7 dias grátis</a><small>Ao iniciar, você poderá conhecer as condições comerciais antes de qualquer cobrança.</small></article>
+        </div>
+      </section>
+
+      <section class="container faq" id="faq"><div class="section-intro"><p class="eyebrow">Perguntas frequentes</p><h2>Você continua no controle.</h2><p class="faq-helper">Tem outra dúvida? O teste foi pensado para que você avalie a experiência completa na prática.</p><a class="text-link" href="#preco">Começar teste gratuito</a></div><div class="faq-list">
+        <details open><summary>O Daily.News dispara as mensagens automaticamente?</summary><p>Não. A plataforma gera o texto e abre seu WhatsApp Web; você mantém a decisão e o envio pessoal.</p></details>
+        <details><summary>Como funciona o período de teste de 7 dias?</summary><p>Você usa todos os recursos durante sete dias e pode cancelar antes da primeira cobrança.</p></details>
+        <details><summary>Preciso instalar alguma coisa?</summary><p>Não. O Daily.News funciona no navegador, em computador ou celular.</p></details>
+        <details><summary>A IA é segura para o mercado financeiro?</summary><p>Ela não emite recomendações nem toma decisões: apenas filtra e resume fatos publicados pelas fontes acompanhadas.</p></details>
+      </div></section>
+    </main>
+
+    <a class="mobile-cta button" href="#preco">Testar grátis por 7 dias <span aria-hidden="true">→</span></a>
+    <footer><div class="container"><a class="brand" href="#top">daily<span>.</span>news</a><p>© 2026 Daily.News. Todos os direitos reservados.</p><div><a href="#">Termos de Uso</a><a href="#">Política de Privacidade</a></div></div></footer>
+  </body>
+</html>
