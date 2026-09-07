@@ -35,13 +35,33 @@
 
         <div class="product-frame" aria-label="Representação do painel da plataforma">
           <div class="window-top"><span></span><span></span><span></span><b>daily.news / feed</b></div>
-          <div class="app-layout">
-            <aside><strong>daily.news</strong><a>Visão geral</a><a class="active">Feed</a><a>Clientes</a><a>Preferências</a></aside>
-            <div class="feed-preview">
-              <div class="preview-heading"><div><small>Bom dia, Marina</small><b>Feed da carteira</b></div><button>Gerar feed</button></div>
-              <div class="client-row"><div class="avatar">R</div><div><b>Ricardo Almeida</b><small>Ibovespa · FIIs · Selic</small></div><button class="icon-button">↗</button></div>
-              <article><span class="tag">MERCADO</span><b>Ibovespa abre em alta com atenção aos juros</b><small>Resumo personalizado para Ricardo · 2 min</small></article>
-              <article><span class="tag">RENDA FIXA</span><b>O que muda com a próxima decisão do Copom</b><small>Resumo personalizado para Ricardo · 4 min</small></article>
+          <div class="app-shell">
+            <div class="app-header">
+              <span class="app-logo">Daily<i>.</i>News</span>
+              <nav class="app-nav"><a class="active">Clientes</a><a>Feed</a><a>Sair</a></nav>
+            </div>
+            <div class="app-cards-wrap">
+              <div class="app-cards">
+                <article class="app-card">
+                  <small class="app-card-reg">Registro 01/05</small>
+                  <div class="app-card-title"><h4>Lucas</h4><button>Gerar feed</button></div>
+                  <div class="app-card-empty">Nenhuma matéria.</div>
+                  <button class="app-card-send">Enviar resumo</button>
+                </article>
+                <article class="app-card">
+                  <small class="app-card-reg">Registro 02/05</small>
+                  <div class="app-card-title"><h4>Murilo</h4><button>Gerar feed</button></div>
+                  <div class="app-card-empty">Nenhuma matéria.</div>
+                  <button class="app-card-send">Enviar resumo</button>
+                </article>
+                <article class="app-card">
+                  <small class="app-card-reg">Registro 03/05</small>
+                  <div class="app-card-title"><h4>Tiago</h4><button>Gerar feed</button></div>
+                  <div class="app-card-empty">Nenhuma matéria.</div>
+                  <button class="app-card-send">Enviar resumo</button>
+                </article>
+              </div>
+              <div class="scroll-fade" aria-hidden="true"></div>
             </div>
           </div>
         </div>
