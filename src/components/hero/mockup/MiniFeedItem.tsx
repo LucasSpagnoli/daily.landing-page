@@ -18,7 +18,7 @@ export const MiniFeedItem: React.FC<MiniFeedItemProps> = ({
       }`}
     >
       {source && (
-        <span className="block text-[#D4AF37] font-mono text-[8px] font-medium tracking-[0.1em] uppercase">
+        <span className="block text-[#D4AF37] font-sans text-[9px] font-semibold tracking-[0.08em] uppercase">
           {source}
         </span>
       )}

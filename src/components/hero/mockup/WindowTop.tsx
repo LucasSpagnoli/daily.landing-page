@@ -6,7 +6,7 @@ export const WindowTop: React.FC = () => {
       <span className="block w-1.5 h-1.5 rounded-full bg-black/20" />
       <span className="block w-1.5 h-1.5 rounded-full bg-black/20" />
       <span className="block w-1.5 h-1.5 rounded-full bg-black/20" />
-      <b className="ml-2 font-mono font-normal">daily.news / feed</b>
+      <b className="ml-2 font-sans font-medium text-[10px] tracking-wide text-black/50">daily.news / feed</b>
     </div>
   )
 }

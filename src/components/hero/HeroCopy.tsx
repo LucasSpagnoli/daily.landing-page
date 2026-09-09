@@ -4,7 +4,7 @@ import { Button } from '../common/Button.tsx'
 export const HeroCopy: React.FC = () => {
   return (
     <div className="max-w-[670px]">
-      <p className="text-[#D4AF37] font-mono text-[11px] tracking-[0.22em] uppercase mb-[13px]">
+      <p className="text-[#D4AF37] font-sans text-xs font-semibold tracking-[0.2em] uppercase mb-3.5">
         Exclusivo para assessores de investimentos
       </p>
       <h1 className="font-serif font-light text-[clamp(30px,3.6vw,46px)] leading-[1.15] tracking-[-0.015em] mb-[23px] text-black">

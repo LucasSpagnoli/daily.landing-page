@@ -31,7 +31,7 @@ export const AppCard: React.FC<AppCardProps> = ({
       className="flex-none w-[210px] p-3.5 border border-black/10 bg-white hover:border-[#D4AF37] hover:shadow-[0_10px_20px_rgba(0,0,0,0.06)] hover:-translate-y-[2px] transition-all duration-300 animate-fadeInUp"
     >
       <div className="flex items-center justify-between gap-2 my-2 mt-0">
-        <h4 className="m-0 font-serif font-light text-[15px] text-black">
+        <h4 className="m-0 font-sans font-semibold text-sm text-black">
           {clientName}
         </h4>
         <button

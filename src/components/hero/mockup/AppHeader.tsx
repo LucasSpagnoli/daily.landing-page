@@ -6,7 +6,7 @@ export const AppHeader: React.FC = () => {
       <span className="font-serif font-light text-[15px] tracking-[0.02em] text-black">
         Daily<span className="text-[#D4AF37]">.News</span>
       </span>
-      <nav className="flex gap-4 font-mono text-[9px] font-medium tracking-[0.12em] uppercase text-black/35">
+      <nav className="flex gap-4 font-sans text-[10px] font-semibold tracking-[0.08em] uppercase text-black/40">
         <span className="text-black border-b-2 border-[#D4AF37] pb-[2px] cursor-pointer">
           Clientes
         </span>

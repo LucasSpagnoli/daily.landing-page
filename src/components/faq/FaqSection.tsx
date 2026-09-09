@@ -30,7 +30,7 @@ export const FaqSection: React.FC = () => {
 
   return (
     <section id="faq" className="w-[min(1120px,calc(100%-48px))] max-w-[1120px] mx-auto py-16 md:py-[72px] max-md:py-12 grid grid-cols-1 md:grid-cols-[0.75fr_1fr] gap-10 md:gap-[100px]">
-      <div>
+      <div className="reveal">
         <EditorialRule />
         <SectionIntro
           eyebrow="Perguntas frequentes"
@@ -39,7 +39,7 @@ export const FaqSection: React.FC = () => {
         />
       </div>
 
-      <div className="border-t border-black/10">
+      <div className="border-t border-black/10 reveal">
         {faqs.map((faq, idx) => (
           <FaqItem
             key={idx}

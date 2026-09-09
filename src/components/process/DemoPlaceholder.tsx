@@ -5,10 +5,10 @@ export const DemoPlaceholder: React.FC = () => {
 
   return (
     <div className="reveal min-h-[280px] flex flex-col items-center justify-center gap-3.5 border border-dashed border-black/20 bg-black/[0.02] text-center p-6 mt-9 transition-colors">
-      <b className="font-serif font-light text-[17px] text-black">
+      <b className="font-sans font-semibold text-base text-black">
         Cadastro → feed personalizado → resumo → WhatsApp
       </b>
-      <p className="m-0 text-black/40 font-mono text-[11px] tracking-[0.1em] uppercase">
+      <p className="m-0 text-black/50 font-sans text-xs tracking-wide uppercase">
         {isPlaying ? 'Demonstração ativa da interface' : 'Clique para ver o fluxo simplificado'}
       </p>
       <button

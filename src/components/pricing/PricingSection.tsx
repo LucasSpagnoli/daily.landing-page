@@ -10,13 +10,13 @@ export const PricingSection: React.FC = () => {
         <EditorialRule inverse />
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-20 items-center mt-7">
           <div className="reveal">
-            <p className="text-[#D4AF37] font-mono text-[11px] tracking-[0.22em] uppercase mb-[13px]">
+            <p className="text-[#D4AF37] font-sans text-xs font-semibold tracking-[0.2em] uppercase mb-3.5">
               Comece sem risco
             </p>
             <h2 className="font-serif font-light text-[clamp(30px,3.6vw,46px)] leading-[1.12] tracking-[-0.015em] mb-0 text-white">
               Teste a sua nova rotina antes de decidir.
             </h2>
-            <p className="mt-4 text-white/70 text-sm leading-relaxed max-w-[540px]">
+            <p className="mt-4 text-white/70 text-sm leading-relaxed max-w-[540px] font-sans">
               Durante 7 dias, use o painel completo com seus próprios clientes —
               sem contrato e sem perder o controle da mensagem.
             </p>

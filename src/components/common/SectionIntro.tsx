@@ -28,7 +28,7 @@ export const SectionIntro: React.FC<SectionIntroProps> = ({
     >
       {eyebrow && (
         <p
-          className={`font-mono text-[11px] tracking-[0.22em] uppercase mb-[13px] ${eyebrowColorClass}`}
+          className={`font-sans text-xs font-semibold tracking-[0.2em] uppercase mb-3.5 ${eyebrowColorClass}`}
         >
           {eyebrow}
         </p>
@@ -37,7 +37,7 @@ export const SectionIntro: React.FC<SectionIntroProps> = ({
         {title}
       </h2>
       {helperText && (
-        <p className="mt-[18px] text-black/60 text-sm">{helperText}</p>
+        <p className="mt-[18px] text-black/60 text-sm font-sans">{helperText}</p>
       )}
     </div>
   )

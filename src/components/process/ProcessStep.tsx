@@ -23,10 +23,10 @@ export const ProcessStep: React.FC<ProcessStepProps> = ({
           : ''
       } ${className}`}
     >
-      <span className="grid w-10 h-10 place-items-center bg-[#D4AF37] text-black font-mono font-medium text-sm">
+      <span className="grid w-10 h-10 place-items-center bg-[#D4AF37] text-black font-sans font-bold text-sm">
         {step}
       </span>
-      <h3 className="my-5 mb-2.5 font-serif font-light text-xl text-black">
+      <h3 className="my-5 mb-2 font-sans font-semibold text-lg text-black">
         {title}
       </h3>
       <p className="text-black/60 text-sm m-0 leading-relaxed font-sans">
