@@ -90,3 +90,14 @@
     scroll-behavior: auto !important;
   }
 }
+
+@supports (animation-timeline: view()) {
+  .stack-card {
+    animation: afundar linear both;
+    animation-timeline: view();
+    animation-range: exit 0% exit 100%;
+  }
+  @keyframes afundar {
+    to { transform: scale(0.85); }
+  }
+}
