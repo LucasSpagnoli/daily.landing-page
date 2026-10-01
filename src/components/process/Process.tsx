@@ -11,22 +11,22 @@ const steps = [
   {
     step: '01',
     title: "Na aba 'Clientes', registre seu assessorado",
-    image: '/images/step1.jpg',
+    image: '/images/1.jpg',
   },
   {
     step: '02',
    title: 'Cadastre as preferências que ele quiser',
-    image: '/images/step2.jpg',
+    image: '/images/2.jpg',
   },
   {
     step: '03',
     title: "Na aba 'Feed', clique para gerar feed",
-    image: '/images/step3.jpg',
+    image: '/images/3.jpg',
   },
   {
     step: '04',
     title: 'Clique em enviar resumo e mande a mensagem!',
-    image: '/images/step4.jpg',
+    image: '/images/4.jpg',
   },
 ]
 

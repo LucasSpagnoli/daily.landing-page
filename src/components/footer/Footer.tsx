@@ -1,6 +1,6 @@
 import React from 'react'
 import { Brand } from '../common/Brand.tsx'
-import { FooterLinks } from './FooterLinks.tsx'
+// import { FooterLinks } from './FooterLinks.tsx'
 
 export const Footer: React.FC = () => {
   return (
@@ -10,9 +10,9 @@ export const Footer: React.FC = () => {
         <p className="m-0 text-black/40 text-xs text-center sm:text-left order-3 sm:order-2">
           © 2026 Daily.News. Todos os direitos reservados.
         </p>
-        <div className="order-2 sm:order-3">
+        {/* <div className="order-2 sm:order-3">
           <FooterLinks />
-        </div>
+        </div> */}
       </div>
     </footer>
   )
