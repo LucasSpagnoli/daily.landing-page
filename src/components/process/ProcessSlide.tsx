@@ -31,7 +31,7 @@ export const ProcessSlide: React.FC<ProcessSlideProps> = ({
             <img src={image} alt="" loading="lazy" className="w-full h-full object-cover" />
         </div>
 
-        <span className="absolute top-0 left-0 grid w-12 h-12 place-items-center bg-[#D4AF37] text-black font-sans font-bold text-base">
+        <span className="absolute bottom-0 left-0 grid w-8 h-8 place-items-center bg-[#D4AF37] text-black font-sans font-bold text-sm">
           {step}
         </span>
       </div>
@@ -40,8 +40,7 @@ export const ProcessSlide: React.FC<ProcessSlideProps> = ({
       <div
         className={`text-center max-w-[520px] px-6 transition-opacity duration-[1000ms] ${
           isActive ? 'opacity-100' : 'opacity-0'
-        }`}
-      >
+        }`}>
         <h3 className="font-sans font-semibold text-lg text-black">{title}</h3>
       </div>
     </div>

@@ -5,28 +5,28 @@ import { ProcessSlide } from './ProcessSlide.tsx'
 import { useHorizontalScroll } from '../../hooks/useHorizontalScroll.ts'
 
 // quantos "vh" de scroll cada slide ocupa (maior = mais scroll entre imagens)
-const SCROLL_PER_SLIDE = 100
+const SCROLL_PER_SLIDE = 50
 
 const steps = [
   {
     step: '01',
     title: "Na aba 'Clientes', registre seu assessorado",
-    image: '/images/step1.png',
+    image: '/images/1.jpg',
   },
   {
     step: '02',
    title: 'Cadastre as preferências que ele quiser',
-    image: '/images/step2.jpg',
+    image: '/images/2.jpg',
   },
   {
     step: '03',
     title: "Na aba 'Feed', clique para gerar feed",
-    image: '/images/step3.jpg',
+    image: '/images/3.jpg',
   },
   {
     step: '04',
     title: 'Clique em enviar resumo e mande a mensagem!',
-    image: '/images/step4.png',
+    image: '/images/4.jpg',
   },
 ]
 
