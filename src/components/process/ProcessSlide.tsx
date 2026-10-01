@@ -40,8 +40,7 @@ export const ProcessSlide: React.FC<ProcessSlideProps> = ({
       <div
         className={`text-center max-w-[520px] px-6 transition-opacity duration-[1000ms] ${
           isActive ? 'opacity-100' : 'opacity-0'
-        }`}
-      >
+        }`}>
         <h3 className="font-sans font-semibold text-lg text-black">{title}</h3>
       </div>
     </div>
